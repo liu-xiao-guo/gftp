@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=gftp
+GenericName=gftp
+Comment=gftp
+Keywords=ftp,gftp
+Exec=gftp
+Icon=${SNAP}/meta/gui/icon.png
+Terminal=false
+StartupNotify=true
