@@ -1,14 +1,14 @@
-name: gftp
+name: g-ftp
 version: '0.1' 
 summary: gftp
 description: |
   This is gftp snap application
 
 grade: stable
-confinement: strict
+confinement: devmode
 
 apps:
-  gftp:
+  g-ftp:
     command: desktop-launch $SNAP/usr/bin/gftp-gtk
     plugs:
       - network
